@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 /**
  * Stand-alone console demo for the Q&A system.
- * Run this class directly (has a main()).
  */
 public class QADemoConsole {
 
@@ -18,7 +17,7 @@ public class QADemoConsole {
     }
 
     private void run() {
-        seed(); // optional demo data; delete if you want a blank start
+        seed(); 
         println("\n=== Q&A Console Demo ===");
         String choice;
         do {
